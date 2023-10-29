@@ -1,0 +1,44 @@
+{
+  "job": "Frontend Developer",
+  "name": "Mutia Pegi Intanswari",
+  "desc": "Frontend Developer, Based In Indonesia",
+  "descab": "I am a Frontend Developer based in Indonesia, I have been studying programming for 3 years, I am a Vocational High School student in Metro City - Indonesia",
+  "email": "mutiapegiintanswari@gmail.com",
+  "status": "on",
+  "hireMeLink": "https://instagram.com/mtiaavv",
+  "projects": [
+    {
+      "project-image-url": "https://i.ibb.co/WvHmVFs/React.png",
+      "project-name": "Portfolio",
+      "project-desc": "React + Tailwind Portfolio"
+    },
+    {
+      "project-image-url": "https://i.ibb.co/LnSD1SP/Html-1.png",
+      "project-name": "Simple Webpage",
+      "project-desc": "HTML CSS JS "
+    },
+    {
+      "project-image-url": "https://i.ibb.co/W2kQd9V/Node-js-2.png",
+      "project-name": "Bot Whatsapp",
+      "project-desc": "Node JS"
+    }
+  ],
+  "social": [
+    {
+      "icon": "FaXTwitter",
+      "link": "https://x.com"
+    },
+    {
+      "icon": "FaInstagram",
+      "link": "https://instagram.com/mtiaavv"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/Mutiaacode"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "link": "https://linkedin.com"
+    }
+  ]
+}
