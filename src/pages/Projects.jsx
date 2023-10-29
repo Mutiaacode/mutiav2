@@ -51,6 +51,7 @@ export default function Card() {
           </div>
           <div className="flex flex-col">
             {projects.map((project, index) => (
+      <div
   <a
     key={index}
     onMouseEnter={handleMouseEnter}
@@ -90,5 +91,7 @@ export default function Card() {
         />
       </svg>
     </button>
+        </div
+          </div>
   </a>
 ))}
