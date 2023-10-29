@@ -11,19 +11,19 @@
       "project-image-url": "https://i.ibb.co/WvHmVFs/React.png",
       "project-name": "Portfolio",
       "project-desc": "React + Tailwind Portfolio",
-      "github-url": "https://github.com/" // Tambahkan URL GitHub di sini
+      "github-url": "https://github.com/" 
     },
     {
       "project-image-url": "https://i.ibb.co/LnSD1SP/Html-1.png",
       "project-name": "Simple Webpage",
       "project-desc": "HTML CSS JS",
-      "github-url": "https://github.com/" // Tambahkan URL GitHub di sini
+      "github-url": "https://github.com/" 
     },
     {
       "project-image-url": "https://i.ibb.co/W2kQd9V/Node-js-2.png",
       "project-name": "Bot Whatsapp",
       "project-desc": "Node JS",
-      "github-url": "https://github.com/" // Tambahkan URL GitHub di sini
+      "github-url": "https://github.com/"
     }
   ],
   "social": [
