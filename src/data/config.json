@@ -26,6 +26,14 @@
       "github-url": "https://github.com/"
     }
   ],
+  "work": [
+    {
+      "work-image-url": "https://i.ibb.co/WvHmVFs/React.png",
+      "work-name": "NextGen Informatics",
+      "work-desc": "NextGen Informatics ( Perusahaan Yang Berjalan Di Bidang IT )",
+      "github-url": "https://github.com/" 
+    }
+  ],
   "social": [
     {
       "icon": "FaXTwitter",
