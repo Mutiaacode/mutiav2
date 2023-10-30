@@ -3,7 +3,7 @@ import { getConfigData } from "../data/configReader";
 
 export default function Card() {
   const configData = getConfigData();
-  const projects = configData.projects;
+  const projects = configData.work;
 
   const [isHovered, setIsHovered] = useState(false);
 
