@@ -26,7 +26,7 @@ export default function Card() {
           <div className="flex items-center justify-between mb-5">
             <div className="font-medium text-lg flex items-center gap-x-2">
               <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-              Projects
+              Work
             </div>
             <button
               type="button"
@@ -62,17 +62,17 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src={project["project-image-url"]}
+                      src={work["work-image-url"]}
                       alt=""
                     />
                   </div>
                 </div>
                 <div className="flex flex-col justify-center">
                   <h1 className="font-medium text-lg">
-                    {project["project-name"]}
+                    {work["work-name"]}
                   </h1>
                   <p className="text-gray-500 text-md">
-                    {project["project-desc"]}
+                    {work["work-desc"]}
                   </p>
                 </div>
                 <button className="ml-auto hidden md:inline-block">
