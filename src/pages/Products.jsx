@@ -3,7 +3,7 @@ import { getConfigData } from "../data/configReader";
 
 export default function Card() {
   const configData = getConfigData();
-  const projects = configData.work;
+  const projects = configData.projects;
 
   const [isHovered, setIsHovered] = useState(false);
 
@@ -26,7 +26,7 @@ export default function Card() {
           <div className="flex items-center justify-between mb-5">
             <div className="font-medium text-lg flex items-center gap-x-2">
               <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-              Work
+              Projects
             </div>
             <button
               type="button"
@@ -50,7 +50,7 @@ export default function Card() {
             </button>
           </div>
           <div className="flex flex-col">
-            {work.map((work, index) => (
+            {projects.map((project, index) => (
               <a
                 key={index}
                 onMouseEnter={handleMouseEnter}
@@ -62,17 +62,17 @@ export default function Card() {
                   <div className="card-image w-16 h-16 rounded-full overflow-hidden">
                     <img
                       className="w-full h-full object-cover"
-                      src={work["work-image-url"]}
+                      src={project["project-image-url"]}
                       alt=""
                     />
                   </div>
                 </div>
                 <div className="flex flex-col justify-center">
                   <h1 className="font-medium text-lg">
-                    {work["work-name"]}
+                    {project["project-name"]}
                   </h1>
                   <p className="text-gray-500 text-md">
-                    {work["work-desc"]}
+                    {project["project-desc"]}
                   </p>
                 </div>
                 <button className="ml-auto hidden md:inline-block">
