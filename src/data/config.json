@@ -32,6 +32,12 @@
       "work-name": "NextGen Informatics",
       "work-desc": "NextGen Informatics ( Perusahaan Yang Berjalan Di Bidang IT )",
       "github-url": "https://github.com/" 
+    },
+    {
+      "project-image-url": "https://i.ibb.co/LnSD1SP/Html-1.png",
+      "project-name": "Simple Webpage",
+      "project-desc": "HTML CSS JS",
+      "github-url": "https://github.com/" 
     }
   ],
   "social": [
