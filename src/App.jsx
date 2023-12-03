@@ -12,6 +12,13 @@ function App() {
 
   return (
     <>
+      <Head>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3889433862016984"
+          crossOrigin="anonymous"
+        ></script>
+      </Head>
       <Navbar />
       <div className="pt-[5rem] px-2 py-2">
         <div className="mx-auto max-w-xl bg-white rounded-xl shadow-lg">
